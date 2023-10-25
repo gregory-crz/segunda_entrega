@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    /* border-bottom: 15px solid #c1101a; */
+}
+
+.titulo {
+    color: #fafafa;
+}
+
+.logo{
+    width: 80px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
