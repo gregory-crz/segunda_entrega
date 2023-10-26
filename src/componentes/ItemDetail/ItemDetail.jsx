@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './ItemDetail.css'
 
 const ItemDetail = ({id, nombre, precio, img}) => {

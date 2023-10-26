@@ -1,7 +1,8 @@
 body{
     margin: auto;
-    a:link, a:visited, a:active {
-    text-decoration:none;}
+    a:link, a:visited {
+    text-decoration:none;
+    }
 }
 
 
