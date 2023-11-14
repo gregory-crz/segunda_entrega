@@ -10,15 +10,16 @@
 }
 
 .cardProducto img {
-    width: 150px;
+    width: 280px;
     object-fit: contain;
+    border-radius: 5px;
 }
 
-.cardProducto button {
+/* .cardProducto button {
     background-color: #373d20;
     color: #fafafa;
     font-size: 1.2rem;
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
-}
+} */

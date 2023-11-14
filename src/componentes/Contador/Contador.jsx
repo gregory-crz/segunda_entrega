@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react"
+import './Contador.css';
 
 const Contador = ({inicial, stock, funcionAgregar}) => {
     const [contador, setContador] = useState(inicial);
@@ -24,7 +25,7 @@ const Contador = ({inicial, stock, funcionAgregar}) => {
     <>
         <div>
             <button onClick={restarContador} > - </button>
-            <strong>{contador}</strong>
+            <strong >{contador}</strong>
             <button onClick={sumarContador} > + </button>
         </div>
         <button onClick={()=> funcionAgregar(contador)} >Agregar al carrito</button>
